@@ -81,7 +81,7 @@ const { MessageEmbed } =require("discord.js")
         name: "purge",
         description: "Bulk delete a set amount of messages from a user or text channel",
         usage: "!purge [#channel] [@user] [amount]",
-        example: "!purge 10\n!purge @chi#0262 16\n!purge #purgatory @chi#0262 50\n!purge #purgatory"
+        example: "!purge 10\n!purge @user 16\n!purge #general @user 50\n!purge #general"
       };
       
       exports.conf = {

@@ -11,7 +11,7 @@ const { MessageEmbed } = require("discord.js");
                 if(!member) {
                 let embed = new MessageEmbed()
                     .setColor("RANDOM")
-                    .setTitle('Who do you want me to kill?')
+                    .setTitle('Who do you want me to kick?')
                     .setImage('https://i.imgur.com/RkIfjMP.gif');
                 return message.channel.send(embed)                   
                 }
@@ -101,7 +101,7 @@ const { MessageEmbed } = require("discord.js");
         name: "kick",
         description: "Kick a member from the server",
         usage: "!kick <user> <reason>",
-        example: "!kick @panda.#3883 being slow"
+        example: "!kick @user spam"
       };
       
       exports.conf = {

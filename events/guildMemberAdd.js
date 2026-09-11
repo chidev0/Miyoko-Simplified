@@ -41,7 +41,7 @@ module.exports = async (client, member, message) => {
     .setColor("RED")
     .setDescription(`${member}, I tried sending you a DM but it seems you have them disabled. Please enable them and try again`)
     .setFooter("Follow the instructions in the image above to allow me to send you DMs")
-    .setImage("https://myrtilus.reeee.ee/VxElss.png")
+    .setImage("https://myrtilus.reeee.ee/VxElss.png") // Archived: this image was hosted on my own image-sharing domain.
 
     const embed2 = new discord.MessageEmbed()
     .setColor("RANDOM")

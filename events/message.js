@@ -13,7 +13,8 @@ module.exports = async (client, message) => {
   if (!message.guild) return;
   if (message.author.bot) return;
 
-  let inviteLink = ["discord.gg/", "discord.com/invite", "discordapp.com/invite", "kitten", "nigger", "beaner", "faggot", "fag", "f a g", "f@g", "kys", "k y s", "whore"];
+  // The legacy word blacklist was removed for the portfolio archive.
+  let inviteLink = ["discord.gg/", "discord.com/invite", "discordapp.com/invite"];
   
   if (inviteLink.some(word => message.content.toLowerCase().includes(word))) {
     await message.delete();

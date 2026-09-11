@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
-const tutorialBot = require("./handler/ClientBuilder.js");
-const client = new tutorialBot();
+const MiyokoClient = require("./handler/ClientBuilder.js");
+const client = new MiyokoClient();
 const mongo = require('./mongo')
 const alexa = require("alexa-bot-api");
 let ai = new alexa

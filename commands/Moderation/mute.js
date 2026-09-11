@@ -34,7 +34,7 @@ exports.run = async (client, message, args) => {
  .addField("Muted by:", `${message.author}`)
  .addField("Reason", `${reason}`)
  .addField("Duration", `${time}`)
- .setFooter('Copyirght © 2020 Idiots Who Code')
+ .setFooter('Miyoko')
  if(ms(time)){
  try{
  user.send(dm)
@@ -64,7 +64,7 @@ exports.help = {
     name: "mute",
     description: "Silence a user",
     usage: "!mute <user> <time> [reason]",
-    example: "!mute @chi#0262 3m Spam"
+    example: "!mute @user 3m Spam"
   };
   
   exports.conf = {

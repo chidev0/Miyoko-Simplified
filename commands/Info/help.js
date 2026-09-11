@@ -15,7 +15,7 @@ exports.run = async (client, message, args) => {
     .setDescription(`Type \`${prefix}help [command]\` to get more specific information about a command. To invite ${client.user.username} click [here](https://discord.com/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot)`)
     .setTitle(`${client.user.username}'s Commands`)
     .setThumbnail(client.user.displayAvatarURL())
-    .setFooter(`Made by chi#0262`, '');
+    .setFooter(`Miyoko`, '');
     
     for (const mod of module) {
       // You can change the .join(" | ") to commas, dots or every symbol.

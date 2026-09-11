@@ -14,7 +14,7 @@ const { MessageEmbed } = require("discord.js");
                     if(!member) {
                     let embed = new MessageEmbed()
                         .setColor("RANDOM")
-                        .setTitle('Who do you want me to kill?')
+                        .setTitle('Who do you want me to ban?')
                         .setImage('https://i.imgur.com/RkIfjMP.gif');
                     return message.channel.send(embed)                   
                     }
@@ -105,7 +105,7 @@ const { MessageEmbed } = require("discord.js");
         name: "ban",
         description: "ban a member from the server",
         usage: "!ban <user> <reason>",
-        example: "!ban @panda.#3883 being slow"
+        example: "!ban @user spam"
       };
       
       exports.conf = {

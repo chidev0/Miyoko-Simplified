@@ -1,6 +1,6 @@
 const {Client, Collection} = require("discord.js");
 
-module.exports = class TutorialBot extends Client {
+module.exports = class MiyokoClient extends Client {
   constructor(options) {
     super(options)
 

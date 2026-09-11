@@ -71,3 +71,13 @@ The project includes XP progression, rank-card generation, leaderboards, customi
 This repository intentionally represents the original generation of the project rather than a modern rewrite. If I were rebuilding Miyoko today, I would migrate the bot to the current Discord.js interaction model, replace hard-coded server-specific IDs with configuration, centralize validation and error handling, add automated tests and linting, improve structured logging, and modernize dependency and secret-management practices.
 
 The project is therefore best viewed as an **engineering archive and portfolio artifact**, not a production-ready Discord bot or currently hosted service.
+
+## Acknowledgements
+
+The original README credited [eritislami/evobot](https://github.com/eritislami/evobot) for the music system. That historical credit is retained here.
+
+## Development Context
+
+Miyoko was one of my earliest larger software projects, originally built when I was 16 and learning how to structure applications beyond small scripts. Parts of the initial command-handling structure were adapted from community templates and learning resources, which I then extended with Miyoko's moderation, verification, music, XP, configuration, and event-driven features.
+
+The repository is intentionally preserved close to its original form. Its rough edges, architectural decisions, and commit history reflect how I approached software development at that stage and provide useful context alongside my more recent work.

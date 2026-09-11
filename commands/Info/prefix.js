@@ -23,14 +23,14 @@ exports.run = async (client, message, args) => {
             .setTitle('Prefix Update')
             .setColor('GREEN')
             .setDescription(`My prefix has been updated to **${data.Prefix}**`)
-            .setFooter('Copyirght © 2020 Idiots Who Code')
+            .setFooter('Miyoko')
             message.channel.send(embed1)
         } else {
             const embed = new MessageEmbed()
             .setTitle('No prefix set')
             .setColor('RED')
             .setDescription('Since there was not an assigned prefix in this server, it is set by default to `;`. To change this run `;prefix <prefix>`')
-            .setFooter('Copyirght © 2020 Idiots Who Code')
+            .setFooter('Miyoko')
             if(!res) return message.channel.send(embed)
             data = new PrefixSchema({
                 Guild : message.guild.id,
@@ -41,7 +41,7 @@ exports.run = async (client, message, args) => {
             .setTitle('Prefix Set')
             .setColor('GREEN')
             .setDescription(`My prefix has been set to **${data.Prefix}**`)
-            .setFooter('Copyirght © 2020 Idiots Who Code')
+            .setFooter('Miyoko')
             message.channel.send(embed1)
         }
     })
@@ -52,7 +52,7 @@ exports.help = {
     name: "prefix",
     description: "View/change the prefix of the current server",
     usage: "<prefix>",
-    example: "you that sped?"
+    example: "!prefix ?"
   };
   
   exports.conf = {

@@ -24,7 +24,7 @@ exports.run = async (client, message, args) => {
     let dm = new Discord.MessageEmbed()
     .setColor("WHITE")
     .setTitle(`**You have been unmuted in ${message.guild.name}**`)
-    .setFooter('Copyirght © 2020 Idiot Who Codes')
+    .setFooter('Miyoko')
 
     let sucess = new Discord.MessageEmbed()
     .setColor("GREEN")
@@ -35,7 +35,7 @@ exports.run = async (client, message, args) => {
       message.channel.send(sucess)
      }
      catch (err) {
-       message.channel.send(`I was unable to unmute the idiot...${err}`)
+       message.channel.send(`I was unable to unmute that user...${err}`)
      }
        }
 exports.help = {
